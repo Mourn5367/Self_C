@@ -21,7 +21,7 @@
     <ClCompile Include="sub.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="thirdc">
+    <ClCompile Include="third.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
