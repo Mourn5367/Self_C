@@ -13,7 +13,7 @@ int square_2(int row)
 }
 int square_1(int input_Num_value)
 {
-	
+
 	int i = 0;
 
 	for (i = 0; i < input_Num_value; i++)
