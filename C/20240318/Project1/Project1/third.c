@@ -6,8 +6,10 @@ int tri_1_2(int row)
 		printf(" *");
 		if (j == row)
 		{
+
 			printf("\n");
 			break;
+
 		}
 	}
 }
@@ -17,7 +19,9 @@ int tri_1_1(int input_Num_value)
 
 	for (i = 0; i < input_Num_value; i++)
 	{
+
 		tri_1_2(i);
+
 	}
 }
 
