@@ -1,48 +1,43 @@
 #include <stdio.h>
 
+
+void tri_1(int row)
+{
+	for (int j = 0; j <= row; j++)
+	{
+		if (j == row)
+		{
+			printf("\n");
+			break;
+		}
+		printf(" *");
+	}
+}
+
 int main(void)
 
 {
-
 	int c = 0;
-	int r = 0;
-
 	int i = 0;
-	int j = 0;
 
-
-	scanf_s("%d", &c);
-
-	scanf_s("%d", &r);
-
-
-
-	//for ( i = 0, j = 0; i < c; i++,j++ )
-	//{
-	//	
-	//	//if (i >= j)
-	//	//{
-	//	//	printf("* ");
-
-	//	//}
-
-	//	printf("* ");
-
-	//	if (c - 1 == i)
-	//	printf("\n");
-
-	//}
+	scanf_s("%d", &c);	
 
 	for (i = 0; i < c; i++)
 	{
-		
-
-			printf("* ");
-		
+		tri_1(i);
+		//void asdf(int row)
+		//{
+		//	for (int j = 0; j <= row; j++)
+		//	{
+		//		if (j == row)
+		//		{
+		//			printf("\n");
+		//			break;
+		//		}
+		//		printf(" *");
+		//	}
+		//}
 	}
-
-	printf("SAD");
-	
 
 	return 0;
 }
