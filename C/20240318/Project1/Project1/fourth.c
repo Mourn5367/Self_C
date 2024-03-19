@@ -1,5 +1,5 @@
 #include <stdio.h>
-int square_2(int row)
+void square_2(int row)
 {
 	for (int j = 0; j <= row; j++)
 	{
@@ -11,7 +11,7 @@ int square_2(int row)
 		else printf(" *");
 	}
 }
-int square_1(int input_Num_value)
+void square_1(int input_Num_value)
 {
 
 	int i = 0;

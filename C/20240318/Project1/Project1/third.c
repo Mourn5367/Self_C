@@ -15,11 +15,11 @@ void tri_1_2(int row)
 	}
 }
 
-void tri_1_1(int input_Num_value)
+void tri_1_1(int height)
 {
 	int i = 0;
 
-	for (i = 0; i < input_Num_value; i++)
+	for (i = 0; i < height; i++)
 	{
 		tri_1_2(i);
 	}
@@ -28,13 +28,13 @@ void tri_1_1(int input_Num_value)
 int main(void)
 
 {
-	int input_Num = 0;
+	int input_Height = 0;
 
 	printf("표현하고자 하는 길이를 입력하시면 *로 꽉찬 직각삼각형이 출력 됩니다.\n");
 
-	scanf_s("%d", &input_Num);printf("\n");
+	scanf_s("%d", &input_Height);printf("\n");
 
-	tri_1_1(input_Num);
+	tri_1_1(input_Height);
 
 	return 0;
 }
