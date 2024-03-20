@@ -48,4 +48,24 @@ void tri_1_1(int height)
 	return 0;
 }
 
+ //for (int i = 1; i <= row; i++)
+ //{
+ //	for (int j = 1; j <= row; j++)
+ //	{
+ //
+ //		if (row - i >= j)
+ //		{
+ //			printf(" . ");
+ //		}
+ //		else
+ //		{
+ //			printf(" * ");
+ //		}
+ //		if (j == row)
+ //		{
+ //			printf("\n");
+ //		}
+ //	}
+ //}
+	 // 이것도 똑같은듯
 
