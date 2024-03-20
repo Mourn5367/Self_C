@@ -65,15 +65,15 @@ int main(void)
 
 	scanf_s("%c", &rectBool);
 	//printf("%c\n", rectBool);
-	if (rectBool == 'Y')
+	if (rectBool == 'Y' || rectBool == 'y')
 	{
 		noneEmptyRect(row, col);
 	}
-	else if (rectBool == 'N')
+	else if (rectBool == 'N' || rectBool == 'n')
 	{
 		noneEmptyRect(row, col);
 	}
 
-	
+	return 0;
 
 }
